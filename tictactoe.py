@@ -167,7 +167,7 @@ def _win():
         messagebox.showinfo("Tic Tac Toe", "O Wins")
         disable_game()
 
-    if count == 9 and winner == FALSE:
+    elif count == 9 and winner == FALSE:
         messagebox.showinfo("Tic Tac Toe", "No Winner")
         disable_game()
 
